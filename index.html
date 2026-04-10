@@ -4,174 +4,256 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="G3 Architects designs residential and commercial spaces with clarity, craft, and care. Explore our studio, services, and how to start your project.">
+    <meta name="theme-color" content="#FF900E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="styles/architects.css">
-    <title>G3 Architects</title>
+    <title>G3 Architects | Architecture &amp; Interior Design Studio</title>
 </head>
 
 <body>
-    <header class="bg-light">
-        <nav class="navbar display-flex">
-            <h3 class="brand">G3 Architects</h3>
-            <ul class="nav-links display-flex">
-                <li class="nav-item"><a href="" class="nav-link text-gray">Home</a></li>
-                <li class="nav-item"><a href="" class="nav-link text-gray">About</a></li>
-                <li class="nav-item"><a href="" class="nav-link text-gray">Contact Us</a></li>
-                <li class="nav-item"><a href="" class="nav-link text-gray text-gray">Login</a></li>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="bg-light" id="top">
+        <nav class="navbar display-flex" aria-label="Primary">
+            <h3 class="brand"><a href="#top" class="brand-link">G3 Architects</a></h3>
+            <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu"
+                id="nav-toggle">
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+                <span class="visually-hidden">Menu</span>
+            </button>
+            <ul class="nav-links display-flex" id="nav-menu">
+                <li class="nav-item"><a href="#top" class="nav-link text-gray">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link text-gray">About</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link text-gray">Contact</a></li>
+                <li class="nav-item"><a href="#login" class="nav-link text-gray">Account</a></li>
             </ul>
         </nav>
         <div class="banner">
             <div class="banner-content">
-                <h1 class="banner-title">Brand New
-                    Group of Architects</h1>
-                <p class="banner-description">There are many variations of passages of Lorem Ipsum available, but the
-                    majority have suffered alteration in some form,
-                    by injected humour, or randomised words which don't look even</p>
-                <button class="btn-primary">Explore More</button>
+                <h1 class="banner-title">Spaces that feel as good as they look</h1>
+                <p class="banner-description">We are an architecture and design studio focused on thoughtful layouts,
+                    natural light, and materials that age beautifully—whether you are planning a home, workplace, or
+                    mixed-use build.</p>
+                <a href="#about" class="btn-primary">Meet our studio</a>
             </div>
-            <img class="banner-image" src="images/banner.png" alt="">
+            <img class="banner-image" src="images/banner.png" width="1200" height="420"
+                alt="Contemporary building exterior with clean lines and warm materials">
         </div>
     </header>
-    <main>
-        <!-- teams section start -->
-        <section class="teams display-flex">
+    <main id="main-content">
+        <section class="teams display-flex" id="about" aria-labelledby="teams-heading">
             <div class="team-img-container">
-                <img src="images/team1.png" alt="">
-                <img src="images/team2.png" alt="">
-                <img src="images/team3.png" alt="">
-                <img src="images/team4.png" alt="">
-
+                <img src="images/team1.png" width="320" height="320"
+                    alt="Architects reviewing floor plans together at a table" loading="lazy" decoding="async">
+                <img src="images/team2.png" width="320" height="320" alt="Design team discussing a scale model"
+                    loading="lazy" decoding="async">
+                <img src="images/team3.png" width="320" height="320" alt="Team visiting a construction site"
+                    loading="lazy" decoding="async">
+                <img src="images/team4.png" width="320" height="320" alt="Studio meeting for project scheduling"
+                    loading="lazy" decoding="async">
             </div>
             <div class="our-features">
-                <h3 class="section-title"><span id="quick-list" class="text-light-gray">Quick list </span> <span>of Our
-                    </span> <span class="text-primary">Features</span>
+                <h3 id="teams-heading" class="section-title"><span id="quick-list" class="text-light-gray">Collaboration
+                    </span> <span>at the heart of
+                    </span> <span class="text-primary">every project</span>
                 </h3>
-                <p class="feature-description text-light-gray">There are many variations of passages of Lorem Ipsum
-                    available, but the
-                    majority have suffered alteration in some form,
-                    by injected humour, or randomised words which don't look even</p>
-                <button class="btn-primary">Explore More</button>
+                <p class="feature-description text-light-gray">Our architects, interior designers, and project leads
+                    work in one room—not silos—so decisions stay aligned from first sketch to final walkthrough.</p>
+                <a href="#features" class="btn-primary">See how we work</a>
             </div>
         </section>
-        <!-- features section start-->
-        <section class="features display-flex">
+        <section class="features display-flex" id="features" aria-labelledby="feature-section-title">
             <div>
-                <h3 id="feature-section-title" class="section-title">Features you will <br> love & enjoy</h3>
-                <p class="text-light-gray">There are many variations of passages of Lorem Ipsum available, but the
-                    majority have suffered alteration in some form,
-                    by injected humour, or randomised words which don't look even</p>
+                <h3 id="feature-section-title" class="section-title">What you can expect <br> when we design together
+                </h3>
+                <p class="text-light-gray">Every engagement is tailored, but our process stays predictable: clear
+                    milestones, honest budgets, and documentation you can hand straight to builders and consultants.</p>
 
-                <!-- feature card container -->
                 <div class="feature-card">
                     <h4 class="feature-title">
-                        Dexktop & Mobile Version
+                        Full-service design
                     </h4>
-                    <p class="text-light-gray">There are many variations of passages of Lorem Ipsum available, but the
-                        majority have suffered alteration in some form,
-                        by injected humour, or randomised...........</p>
+                    <p class="text-light-gray">Concept design, developed drawings, and coordination with engineers—so
+                        your vision stays intact from schematic design through construction administration.</p>
                 </div>
                 <div class="feature-card">
                     <h4 class="feature-title">
-                        Drag & Drop Builder
+                        3D visualization
                     </h4>
-                    <p class="text-light-gray">There are many variations of passages of Lorem Ipsum available, but the
-                        majority have suffered alteration in some form,
-                        by injected humour, or randomised...........</p>
+                    <p class="text-light-gray">Realistic models and walkthroughs help you approve materials, lighting,
+                        and flow long before ground breaks.</p>
                 </div>
                 <div class="feature-card">
                     <h4 class="feature-title">
-                        Awesome Modern Design
+                        Timeless, modern aesthetics
                     </h4>
-                    <p class="text-light-gray">There are many variations of passages of Lorem Ipsum available, but the
-                        majority have suffered alteration in some form,
-                        by injected humour, or randomised...........</p>
+                    <p class="text-light-gray">We balance bold ideas with practical detailing so spaces feel current
+                        today and still feel right years from now.</p>
                 </div>
                 <div class="feature-card">
                     <h4 class="feature-title">
-                        Super Easy to Edit
+                        One dedicated project lead
                     </h4>
-                    <p class="text-light-gray">There are many variations of passages of Lorem Ipsum available, but the
-                        majority have suffered alteration in some form,
-                        by injected humour, or randomised...........</p>
+                    <p class="text-light-gray">You always know who to call. We keep communication tight and documents
+                        organized so nothing gets lost between meetings.</p>
                 </div>
             </div>
             <div class="featured-architect">
-                <img src="images/architect.png" alt="">
-                <button id="experience-badge" class="btn-primary">
-                    <span id="experience-year">10+Years</span>
+                <img src="images/architect.png" width="600" height="720"
+                    alt="Architectural study model of a contemporary building form" loading="lazy" decoding="async">
+                <div id="experience-badge" class="experience-badge" role="img"
+                    aria-label="Over ten years of combined studio experience">
+                    <span id="experience-year">10+</span>
                     <br>
-                    <span>Experience</span>
-                </button>
+                    <span class="experience-badge-sub">years of practice</span>
+                </div>
             </div>
         </section>
 
-        <!-- some facts -->
-        <section class="some-facts">
-            <h3 class="section-title">Some Facts</h3>
-            <p class="text-light-gray fact-description">There are many variations of passages of Lorem Ipsum available,
-                but the majority
-                have suffered alteration.</p>
+        <section class="some-facts" id="facts" aria-labelledby="facts-heading">
+            <h3 id="facts-heading" class="section-title">By the numbers</h3>
+            <p class="text-light-gray fact-description">A snapshot of the work behind our portfolio—built through
+                long-term relationships and repeat clients.</p>
             <div class="facts-container">
                 <div class="fact-card display-flex">
                     <div>
-                        <img src="images/icons/ribon.png" alt="" class="fact-icon">
+                        <img src="images/icons/ribon.png" alt="" class="fact-icon" width="64" height="64" loading="lazy"
+                            decoding="async">
                         <h4 class="fact-number">54</h4>
-                        <h5 class="fact-name">Awards Winnings</h5>
+                        <h5 class="fact-name">Awards won</h5>
                     </div>
                 </div>
                 <div class="fact-card display-flex">
                     <div>
-                        <img src="images/icons/projects.png" alt="" class="fact-icon">
+                        <img src="images/icons/projects.png" alt="" class="fact-icon" width="64" height="64"
+                            loading="lazy" decoding="async">
                         <h4 class="fact-number">1458</h4>
-                        <h5 class="fact-name">Project Finished</h5>
+                        <h5 class="fact-name">Projects completed</h5>
                     </div>
                 </div>
                 <div class="fact-card display-flex">
                     <div>
-                        <img src="images/icons/customers.png" alt="" class="fact-icon">
+                        <img src="images/icons/customers.png" alt="" class="fact-icon" width="64" height="64"
+                            loading="lazy" decoding="async">
                         <h4 class="fact-number">590</h4>
-                        <h5 class="fact-name">Clients Worked</h5>
+                        <h5 class="fact-name">Clients served</h5>
                     </div>
                 </div>
-                <div>
-                    <div class="fact-card display-flex">
-                        <div>
-                            <img src="images/icons/email.png" alt="" class="fact-icon">
-                            <h4 class="fact-number">22578</h4>
-                            <h5 class="fact-name">Emails Send</h5>
-                        </div>
+                <div class="fact-card display-flex">
+                    <div>
+                        <img src="images/icons/email.png" alt="" class="fact-icon" width="64" height="64" loading="lazy"
+                            decoding="async">
+                        <h4 class="fact-number">22578</h4>
+                        <h5 class="fact-name">Inquiries answered</h5>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section class="contact-section bg-light" id="contact" aria-labelledby="contact-heading">
+            <div class="contact-inner">
+                <h3 id="contact-heading" class="section-title">Start a conversation</h3>
+                <p class="text-light-gray contact-lead">Tell us about your site, timeline, and goals. We typically reply
+                    within two business days. <strong class="contact-note">Note:</strong> this page is a static demo—your
+                    message is checked in the browser only until you connect a real form or inbox.</p>
+                <form id="contact-form" class="contact-form" novalidate aria-describedby="form-hint">
+                    <p id="form-hint" class="form-hint text-light-gray">All fields are required. Use at least 10
+                        characters in your message so we can respond with something useful.</p>
+                    <div class="form-field">
+                        <label for="contact-name">Full name</label>
+                        <input type="text" id="contact-name" name="name" autocomplete="name" required maxlength="120"
+                            placeholder="e.g. Jordan Lee">
+                        <p class="field-error" id="error-name" role="alert" hidden></p>
+                    </div>
+                    <div class="form-field">
+                        <label for="contact-email">Email</label>
+                        <input type="email" id="contact-email" name="email" autocomplete="email" required
+                            maxlength="254" placeholder="name@company.com">
+                        <p class="field-error" id="error-email" role="alert" hidden></p>
+                    </div>
+                    <div class="form-field">
+                        <label for="contact-message">Project details</label>
+                        <textarea id="contact-message" name="message" required maxlength="2000" rows="5"
+                            placeholder="Location, size, budget range, and what you hope to achieve"></textarea>
+                        <p class="field-error" id="error-message" role="alert" hidden></p>
+                    </div>
+                    <button type="submit" class="btn-primary btn-submit"><span class="btn-label">Send
+                            message</span></button>
+                </form>
+                <p class="form-status text-light-gray" id="form-status" role="status" aria-live="polite"></p>
+            </div>
+        </section>
 
-        <!-- our sponsors -->
-        <section class="our-sponsors">
+        <section class="login-hint" id="login" aria-labelledby="login-heading">
+            <h3 id="login-heading" class="section-title login-hint-title">Client account</h3>
+            <p class="text-light-gray login-hint-text">Secure project portals and document sharing are not enabled on
+                this demo site. To discuss access, timelines, or proposals, <a href="#contact">contact our team</a> and
+                we will follow up directly.</p>
+        </section>
+
+        <section class="our-sponsors" id="sponsors" aria-labelledby="sponsors-heading">
             <div class="sponsor-info">
-                <h3 class="section-title">
-                    Our Sponsors
+                <h3 id="sponsors-heading" class="section-title">
+                    Partners &amp; platforms
                 </h3>
                 <p class="text-light-gray">
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration.
+                    We collaborate with trusted brands and tools that keep our teams creative, organized, and
+                    connected—across design, research, and client communication.
                 </p>
             </div>
-            <div class="sponsor-companies">
-                <img src="images/sponsors/spotify.png" alt="Spotify">
-                <img src="images/sponsors/amazon.png" alt="Amazon">
-                <img src="images/sponsors/google.png" alt="Google">
-                <img src="images/sponsors/telerama.png" alt="Telerama">
-                <img src="images/sponsors/figma.png" alt="Figma">
-            </div>
+            <ul class="sponsor-companies" role="list">
+                <li class="sponsor-item">
+                    <a class="sponsor-link" href="https://www.spotify.com" target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Spotify (opens in a new tab)">
+                        <img src="images/sponsors/spotify.png" width="160" height="48" alt="" loading="lazy"
+                            decoding="async">
+                    </a>
+                </li>
+                <li class="sponsor-item">
+                    <a class="sponsor-link" href="https://www.amazon.com" target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Amazon (opens in a new tab)">
+                        <img src="images/sponsors/amazon.png" width="160" height="48" alt="" loading="lazy"
+                            decoding="async">
+                    </a>
+                </li>
+                <li class="sponsor-item">
+                    <a class="sponsor-link" href="https://www.google.com" target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Google (opens in a new tab)">
+                        <img src="images/sponsors/google.png" width="160" height="48" alt="" loading="lazy"
+                            decoding="async">
+                    </a>
+                </li>
+                <li class="sponsor-item">
+                    <a class="sponsor-link" href="https://telegram.org" target="_blank" rel="noopener noreferrer"
+                        aria-label="Telegram (opens in a new tab)">
+                        <img src="images/sponsors/telerama.png" width="160" height="48" alt="" loading="lazy"
+                            decoding="async">
+                    </a>
+                </li>
+                <li class="sponsor-item">
+                    <a class="sponsor-link" href="https://www.figma.com" target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Figma (opens in a new tab)">
+                        <img src="images/sponsors/figma.png" width="160" height="48" alt="" loading="lazy"
+                            decoding="async">
+                    </a>
+                </li>
+            </ul>
         </section>
-
-
     </main>
     <footer>
         <div class="bg-light">
-            <p class="text-light-gray">All rights reserved copyright@2023 startup landing page design</p>
+            <p class="text-light-gray">© <span id="footer-year">2026</span> G3 Architects. All rights reserved.</p>
         </div>
     </footer>
+    <script src="js/main.js" defer></script>
 </body>
 
 </html>
