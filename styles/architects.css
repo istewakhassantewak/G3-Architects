@@ -217,6 +217,24 @@ main>section {
     filter: grayscale(100%);
 }
 
+
+/* footer design  */
+footer {
+    margin-top: 130px;
+    margin-bottom: 200px;
+}
+
+footer div {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 38px;
+}
+
+footer div p {}
+
+
 /* responsive media wuery */
 @media screen and (max-width: 576px) {
 
@@ -248,7 +266,7 @@ main>section {
     }
 
     #experience-badge {
-        margin-left: 20px;
+        margin-left: 0px;
         margin-top: 20px;
     }
 
