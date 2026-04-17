@@ -54,4 +54,4 @@ Enhance SEO optimization
 Istewak Hassan Tewak
 
 GitHub: https://github.com/istewakhassantewak
-Portfolio: https://istewak-protfolio.vercel.app/
+Portfolio: g3-architects-three.vercel.app
